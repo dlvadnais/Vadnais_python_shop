@@ -4,9 +4,9 @@ from shopping_system import Store, Person
 
 if __name__ == "__main__":
     # Creating stores with random reputations and cost factors
-    store1 = Store("SuperMart")
-    store2 = Store("BudgetBazaar")
-    store3 = Store("LuxuryGrocers")
+    store1 = Store("Mc Ronalds")
+    store2 = Store("Dantes stone emporium")
+    store3 = Store("Clowns R Us")
 
     # Creating a person with a random budget
     shopper = Person("Alice")
