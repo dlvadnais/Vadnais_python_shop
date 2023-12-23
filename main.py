@@ -1,3 +1,4 @@
+#as03 shopping system David Vadnais
 # main.py
 
 from shopping_system import Store, Person
