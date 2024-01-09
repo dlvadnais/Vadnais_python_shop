@@ -20,18 +20,17 @@ if __name__ == "__main__":
     # Deciding where to throw some dollars
     shopper.decide_store([store1, store2, store3])
 
-    # Interacting with the chosen store (BudgetBazaar in this case)
     
     # Introducing a special offer with a 15% discount and updating the store's cost factor
     store2.introduce_special_offer(15)
 
     # Personal shopper activities
     
-    # Setting a new budget for Alice
+    # Setting a new budget for Dave
     shopper.set_budget(180)
 
-    # Sharing Alice's shopping experience at BudgetBazaar
-    shopper.share_shopping_experience("BudgetBazaar")
+    # Sharing Dave's shopping experience at BudgetBazaar
+    shopper.share_shopping_experience("Mc ronalds")
 
     # Browsing online stores for more shopping options
     shopper.browse_online_stores()
